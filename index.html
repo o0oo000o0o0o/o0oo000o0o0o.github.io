@@ -2,14 +2,78 @@
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Sushank Abbaraju</title>
+  <title>CCC</title>
+  <!-- <link rel="Stylesheet" type="text/css" href="style.css"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <style>
+    h1 
+    {
+      font-size: 75px;
+      text-align: center;
+      color: whitesmoke;
+      background-color: rgb(122, 185, 240);
+      border-style:dotted;
+      border-width: 5px;
+      border-color: rgb(246, 4, 4);
+    }
+    .center 
+    /* also do "img" */
+    {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 10px 10px 5px rgb(122, 185, 240);
+    }
+    body
+    {
+      background-color: aliceblue;
+    }
+
+
+
+
+  </style>
 </head>
 
 <body>
-  <h1>Welcome! My Name is Sushank Abbaraju</h1>
-  <hr>
-  <br>
-  <img src="C:\Users\ASush\Pictures\Google Drive\Sushank.jpg" alt="A Picture of Sushank Abbaraju" width="700" height="450">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">CCC</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <h1>CHI CITY CINEMAS</h1>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Chicago%2C_Illinois.svg/1200px-Flag_of_Chicago%2C_Illinois.svg.png" alt="City of Chicago Flag" width="700" height="450" class="center">
   <br>
   <br>
   <a href="file:///C:/Users/ASush/Desktop/Some_Directory/nu-chi-data-pt-03-2020-u-c/Lessons/11-Web/1/Activities/07-Stu_ImageAndLinks/Solved/index.html" target="_blank">My First HTML
@@ -17,8 +81,22 @@
   <br>
   <hr>
   <h2>About Me:</h2>
-  <p>During his youth, Alexander was tutored by Aristotle until age 16. After Philip's assassination in 336 BC, he succeeded his father to the throne and inherited a strong kingdom and an experienced army. Alexander was awarded the generalship of Greece and used this authority to launch his father's pan-Hellenic project to lead the Greeks in the conquest of Persia.[4][5] In 334 BC, he invaded the Achaemenid Empire (Persian Empire) and began a series of campaigns that lasted 10 years. Following the conquest of Anatolia, Alexander broke the power of Persia in a series of decisive battles, most notably the battles of Issus and Gaugamela. He subsequently overthrew Persian King Darius III and conquered the Achaemenid Empire in its entirety.[b] At that point, his empire stretched from the Adriatic Sea to the Beas River.</p>
-  <p>During his youth, Alexander was tutored by Aristotle until age 16. After Philip's assassination in 336 BC, he succeeded his father to the throne and inherited a strong kingdom and an experienced army. Alexander was awarded the generalship of Greece and used this authority to launch his father's pan-Hellenic project to lead the Greeks in the conquest of Persia.[4][5] In 334 BC, he invaded the Achaemenid Empire (Persian Empire) and began a series of campaigns that lasted 10 years. Following the conquest of Anatolia, Alexander broke the power of Persia in a series of decisive battles, most notably the battles of Issus and Gaugamela. He subsequently overthrew Persian King Darius III and conquered the Achaemenid Empire in its entirety.[b] At that point, his empire stretched from the Adriatic Sea to the Beas River.</p>
+  <div class="card" style="width: 18rem;">
+    <img src="C:\Users\ASush\Pictures\Google Drive\Sushank.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">During his youth, Alexander was tutored by Aristotle until age 16. After Philip's assassination in 336 BC, he succeeded his father to the throne and inherited a strong kingdom and an experienced army. Alexander was awarded the generalship of Greece and used this authority to launch his father's pan-Hellenic project to lead the Greeks in the conquest of Persia.[4][5] In 334 BC, he invaded the Achaemenid Empire (Persian Empire) and began a series of campaigns that lasted 10 years. Following the conquest of Anatolia, Alexander broke the power of Persia in a series of decisive battles, most notably the battles of Issus and Gaugamela. He subsequently overthrew Persian King Darius III and conquered the Achaemenid Empire in its entirety.[b] At that point, his empire stretched from the Adriatic Sea to the Beas River.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="C:\Users\ASush\Pictures\Google Drive\Sushank.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">During his youth, Alexander was tutored by Aristotle until age 16. After Philip's assassination in 336 BC, he succeeded his father to the throne and inherited a strong kingdom and an experienced army. Alexander was awarded the generalship of Greece and used this authority to launch his father's pan-Hellenic project to lead the Greeks in the conquest of Persia.[4][5] In 334 BC, he invaded the Achaemenid Empire (Persian Empire) and began a series of campaigns that lasted 10 years. Following the conquest of Anatolia, Alexander broke the power of Persia in a series of decisive battles, most notably the battles of Issus and Gaugamela. He subsequently overthrew Persian King Darius III and conquered the Achaemenid Empire in its entirety.[b] At that point, his empire stretched from the Adriatic Sea to the Beas River.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
   <hr>
   <h2>Find me at:</h2>
   <ul>
@@ -27,7 +105,7 @@
     <li>Instagram</li>
   </ul>
   <hr>
-  <table border="1">
+  <!-- <table border="1">
     <thead>
       <tr>
         <th colspan="3"> Favorite Things</th>
@@ -53,7 +131,7 @@
       <td>EFGH</td>
       <td>IJKL</td>
     </tr>
-  </table>
+  </table> -->
 
 </body>
 
